@@ -1,7 +1,1 @@
-#include <iostream>
-
-
-void output_data() 
-{
-	std::cout << "Hello Work!";
-}
+void output_data();

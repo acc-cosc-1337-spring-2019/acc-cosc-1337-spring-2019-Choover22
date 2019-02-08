@@ -8,3 +8,16 @@ int main()
 {
 	return 0;
 }
+
+int num;
+char choice;
+
+do
+{
+	cout << "Enter a number";
+	cin >> num;
+	cout << factorial(num);
+	cout << "Would you like to continue?";
+	cin >> choice;
+
+} while (choice == "y" || choice == "Y");

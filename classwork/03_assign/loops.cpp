@@ -12,6 +12,10 @@ returns 120
 DON'T FORGET TO WRITE TEST CASE.  See file loop_test.cpp
 */
 
+using std::cout
+using std::cin
+
+
 int factorial(int num)
 {
 	int num;

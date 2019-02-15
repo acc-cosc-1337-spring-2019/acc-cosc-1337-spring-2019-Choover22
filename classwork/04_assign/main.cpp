@@ -10,6 +10,7 @@ give you a valid name.
 
 int main()
 {
+	std::vector<std::string> names = "John", "Mary"
 	return 0;
 }
 

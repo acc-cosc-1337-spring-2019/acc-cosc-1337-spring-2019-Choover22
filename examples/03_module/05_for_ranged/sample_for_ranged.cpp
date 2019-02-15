@@ -16,3 +16,9 @@ void loop_string_w_auto(std::string str)
 
 	}
 }
+
+void loop_const_vector(const std;;vector<int> & value)
+int mina()
+{
+	std::vector<int> nums = {}
+}

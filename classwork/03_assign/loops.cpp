@@ -28,3 +28,10 @@ int factorial(int num)
 	} while (choice == "y" || choice == "Y");
 
 }
+
+void loop_vector_w_index(std::vector<int>)
+
+TEST_CASE("Test pass vector by value")
+std::vector<int> num = {1000, 55, 77, 11, 99 }
+std:vector<int> num = { 44, 55, 77, 11 99 }
+loop_vector_w_index

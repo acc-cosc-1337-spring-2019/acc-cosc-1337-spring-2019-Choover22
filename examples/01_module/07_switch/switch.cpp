@@ -11,7 +11,8 @@
 
 std::string menu_option(int num)
 {
-	switch (num)
+	
+	switch (num) 
 	{
 	case 1:
 		return "Option 1";

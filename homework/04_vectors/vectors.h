@@ -1,6 +1,6 @@
 #include<string>
 #include<vector>
-using std::vector
+using std::vector;
 /*
 Write a value return function prototype get_max_from_vector with a 
 const reference vector of ints parameter that returns an int

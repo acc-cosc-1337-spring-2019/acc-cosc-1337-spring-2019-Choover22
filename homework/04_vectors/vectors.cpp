@@ -48,7 +48,7 @@ vector<int> vector_of_primes(int x)
 	{
 		if (is_prime(i))
 		{
-			primes.push_back(i)
+			primes.push_back(i);
 		}
 	}
 	return primes;

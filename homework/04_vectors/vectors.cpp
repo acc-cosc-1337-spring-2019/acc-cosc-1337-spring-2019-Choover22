@@ -44,7 +44,7 @@ vector<int> vector_of_primes(int x)
 {
 	vector<int> primes;
 
-	for (int i = 1; i < x, ++i)
+	for (int i = 1; i <= x; ++i)
 	{
 		if (is_prime(i))
 		{

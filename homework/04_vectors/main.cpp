@@ -5,8 +5,19 @@ and display them to screen.
 Program continues until user decides to exit.
 
 */
+#include<iostream>
+#include "vectors.h"
+
+
 int main() 
 {
+	vector<int> primes = vector_of_primes(50);
+
+	for (int p : primes)
+	{
+		std::cout << p << " " << std::endl;
+	}
+	system("pause");
 
 	return 0;
 }

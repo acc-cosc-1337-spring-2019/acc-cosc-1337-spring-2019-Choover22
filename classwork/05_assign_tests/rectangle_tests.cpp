@@ -14,7 +14,7 @@ Width	Height		Area
 100		10			1000
 
 */
-TEST_CASE("TESTING") 
+TEST_CASE("Testing Rectangle Area")
 {
 	REQUIRE(return_val() == 1);
 }

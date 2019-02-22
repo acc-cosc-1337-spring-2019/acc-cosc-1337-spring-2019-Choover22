@@ -7,8 +7,17 @@ has one public function area that returns the area of the rectangle, and one pri
 that calculates area of the rectangle.  The class has 3 int private variables area, width, and height.
 */
 
-double Rectangle::calculate_area() const
+Rectangle::Rectangle(int length, int w) : height(length), width(w)
 {
-
-	return balance;
+	calculate_area();
 }
+double Rectangle::get_area() const
+{
+	return area;
+}
+void Rectangle::calculate_area()
+{
+	area = width * height;
+	
+}
+

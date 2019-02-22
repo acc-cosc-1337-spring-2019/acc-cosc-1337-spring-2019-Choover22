@@ -8,7 +8,7 @@ class Rectangle
 {
 public:
 	Rectangle(int width, int height);//constructor
-	double triangle_area();
+	double get_area()const;
 
 
 private:

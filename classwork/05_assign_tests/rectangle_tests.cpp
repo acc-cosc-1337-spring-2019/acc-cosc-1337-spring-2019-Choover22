@@ -14,7 +14,12 @@ Width	Height		Area
 100		10			1000
 
 */
-TEST_CASE("Testing Rectangle Area")
-{
-	REQUIRE(return_val() == 1);
-}
+//TEST_CASE("Testing Rectangle Area")
+//{
+//	Rectangle rec1(4, 5);
+	//Rectangle rec1(10, 10);
+	//Rectangle rec1(100, 10);
+//	REQUIRE(rec1.get_area() == 20);
+//	REQUIRE(rec2.get_area() == 100);
+//	REQUIRE(rec3.get_area() == 1000);
+//}

@@ -54,3 +54,8 @@ bool TicTacToe::check_column_win()
 
 	return false;
 }
+
+// Win by row if: 
+//0, 1, 2 are equal
+// 3, 4, 5
+//6, 7 8
